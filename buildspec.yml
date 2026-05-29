@@ -19,7 +19,7 @@ phases:
   post-build:
     commands:
       - echo "Pushing Docker image..."
-      - docker push ash773/arsenal-db:latest .
+      - docker push ash773/arsenal-db:latest
 
   artifacts:
     files:
