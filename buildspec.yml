@@ -9,7 +9,7 @@ phases:
   pre_build:
     commands:
       - echo "Logging in to Docker registry"
-      - echo "$SECRET_PASSWORD" | docker login -u "$SECRET_USERNAME" --pasword-stdin
+      - echo "$SECRET_PASSWORD" | docker login -u "$SECRET_USERNAME" --password-stdin
 
   build:
     commands:
